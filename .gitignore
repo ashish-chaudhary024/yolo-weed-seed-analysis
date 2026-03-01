@@ -1,0 +1,33 @@
+# Ignore Large Model Weights (Keep your research proprietary)
+*.pt
+*.pth
+*.onnx
+*.weights
+*.engine
+
+# Ignore Raw Data & Images
+datasets/
+data/
+images/
+*.jpg
+*.png
+*.jpeg
+*.heic
+
+# Ignore Annotation Files
+*.xml
+*.txt
+labels/
+
+# Ignore Python/System Cache
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+env/
+
+# DO NOT ignore the metrics (Allow these to be uploaded)
+!metrics/
+!SAHI_Eval/
+!README.md
+!LICENSE
